@@ -68,7 +68,6 @@ public class BaseTest {
             logger.log(Status.SKIP, m);
         }
         driver.quit();
-    }
 
     @AfterTest
     public void afterTestMethod() {
